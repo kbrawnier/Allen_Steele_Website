@@ -1,19 +1,19 @@
 <div class="bg-off-white pv4">
   <div class="ph3 mw7 center">
-    <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
-    <p class="mb4 mw6">{{.intro.text}}</p>
+    <h2 class="f2 b lh-title mb2 dark-blue tc pb4">{{.intro.heading}}</h2>
 
-    <div class="flex-ns mhn2-ns mb3">
+    <div class="mhn2-ns mb3">
       {{ range .products }}
-      <div class="ph2-ns w-50-ns">
-        <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
-        <p>{{.text}}</p>
+      <div class="books w-100 grid g-1">
+       <img src="{{ .image }}" alt="" style="height: 350px; width: 225px;">
+       {{ .text }}
+        <div class="tc column-span">
+          <a class="prev f4 dark-blue hover pr3 pointer" onclick="plusSlides(-1)">&#10094;</a>
+          <a href="{{ .buttonUrl }}" class="btn raise">Purchase the Book</a>
+          <a class="next f4 dark-blue hover pl3 pointer" onclick="plusSlides(1)">&#10095;</a>
+        </div>
       </div>
       {{ end }}
-    </div>
-
-    <div class="tc">
-      <a href="/products" class="btn raise">See all products</a>
     </div>
   </div>
 </div>

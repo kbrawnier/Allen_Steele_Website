@@ -1,6 +1,14 @@
-<div class="bg-grey-1 pv4">
-  <div class="flex-l mhn1-l ph3 center mw7">
-    <h2 class="f2 b lh-title mb2 w-40-l">{{.heading}}</h2>
-    <p class="w-60-l mb0">{{.text}}</p>
+<div class="flex">
+  <div class="w-50">
+    <div class="mhn1-l ph3 center mw7 grid g-2 h6" style="background-image: url({{.image}})">
+      <h2 class="f2 b lh-title mb2 w-40-l blue c-2 g-bottom">{{.heading}}</h2>
+      <a href= "/contact"class="btn w-50 ml5 c-2 r-2 g-top">Contact Me</a>
+    </div>
+  </div>
+    <div class="w-50 bg-grey-1 h6">
+       <h1 class="tc pt4 dark-blue">About the Author</h1>
+       <h3 class="tc">Allen R. Steele</h2>
+       <div class="ma3 pt3">{{.text}}</div>
+    </div>
   </div>
 </div>

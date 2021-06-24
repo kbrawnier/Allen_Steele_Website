@@ -4,8 +4,28 @@
   color: var(--primary);
 }
 
+.mid-highlight{
+  color: var(--mid-highlight);
+}
+
 .highlight {
   color: var(--highlight);
+}
+
+.blue{
+  color: var(--blue);
+}
+
+.dark-blue{
+  color: #016682;
+}
+
+.beige {
+  color: #C5Bead;
+}
+
+.dark-beige{
+  color: #CFC1AE;
 }
 
 .white {
@@ -34,6 +54,17 @@
 
 .black {
   color: var(--black);
+}
+
+.antiqueWhite {
+  color: antiquewhite;
+}
+
+.bg-dark-blue {
+  background-color: var(--dark-blue);
+}
+.bg-blue {
+  background-color: var(--blue);
 }
 
 .bg-primary {
@@ -70,6 +101,10 @@
 
 .bg-black {
   background-color: var(--black);
+}
+
+.text-shadow {
+  -webkit-text-stroke: 1px var(--grey-3);
 }
 
 .bg-fix-primary {

@@ -1,9 +1,11 @@
 .f1 { font-size: 3rem; }
 .f2 { font-size: 2.25rem; }
 .f3 { font-size: 1.5rem; }
-.f4 { font-size: 1.25rem;; }
+.f4 { font-size: 1.25rem; }
 .f5 { font-size: var(--spacing-medium); }
 .f6 { font-size: .875rem; }
+.f7 { font-size: 1.1rem; }
+.f8 { font-size: 1.3rem; }
 
 @media (--breakpoint-not-small) {
   .f-6-ns,

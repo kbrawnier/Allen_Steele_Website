@@ -1,0 +1,12 @@
+{{ range .books}}
+<div class="books ph3 pt5 pb4 bg-center cover g-4" style="background-image: url('{{ .background_image }}'); height: 100%;">
+    <div class="g-center column-2 {{ .text_size }} {{ .width }} {{ .text_color }}">
+        <h2>{{ .heading }}</h2>
+        <h3>{{ .sub_heading}}</h3>
+        {{ .text }}
+    </div>
+    <img src="{{ .book_image }}" alt="" class="g-center column-3 h5">
+    <a class="prev f4 dark-blue hover pointer column-1 row-1 g-center" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next f4 dark-blue hover pointer column-4 row-1 g-center" onclick="plusSlides(1)">&#10095;</a>
+</div>
+{{ end }}

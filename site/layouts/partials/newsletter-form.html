@@ -1,10 +1,11 @@
-<form action="" class="flex-ns mb3">
+<form name="email" method="POST" class="flex-ns mb3" data-netlify="true" netlify-honeypot="bot-field">
 
   <fieldset class="flex-auto mb2 mb0-ns mr2-ns" name="newsletter" action="newsletter-subscribe">
-    <input type="text" id="email" placeholder="Your email" class="w-100">
-    <label for="email">Your email</label>
+    <input name="bot-field" style="visibility: hidden; height: 0; width: 0;"/>
+    <input name="email" type="text" id="email" placeholder="Your email" class="w-100">
+    <label name="email" for="email">Your email</label>
   </fieldset>
 
-  <button class="btn mb3 w-100 w-auto-ns mb0-ns raise" type="submit">Submit</button>
+  <button class="btn mb3 w-100 w-auto-ns mb0-ns raise self-end" style="height: 50%;" type="submit">Submit</button>
 
 </form>
