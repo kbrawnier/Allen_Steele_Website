@@ -16,7 +16,7 @@ intro:
     vel enim lacinia tristique. Integer ac elit sed neque tincidunt vestibulum
     non eu eros. Curabitur commodo lacus ultricies nulla porttitor, sed
     pulvinar.
-products:
+books:
   - text: >-
       Learn about Allen Steele's 25 years of miracle filled mission work. Read
       about Allen and Andrea's time in Portugal during the Carnation Revolution
@@ -36,13 +36,6 @@ products:
       and Billy the Kid was captured and escaped.
     image: /img/books/unkSF.jpg
     buttonUrl: https://www.amazon.com/Santa-Fe-1880-Chronicles-Railroad/dp/1467141941
-values:
-  heading: Our values
-  text: >-
-    Coffee is an amazing part of human culture but it has a dark side too – one
-    of colonialism and mindless abuse of natural resources and human lives. We
-    want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
 blog:
   title: Updates From the Author
   image: /img/envelope.jpg
