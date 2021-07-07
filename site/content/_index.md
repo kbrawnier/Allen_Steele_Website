@@ -36,11 +36,8 @@ products:
       and Billy the Kid was captured and escaped.
     image: /img/books/unkSF.jpg
     buttonUrl: https://www.amazon.com/Santa-Fe-1880-Chronicles-Railroad/dp/1467141941
-<<<<<<< HEAD
-=======
 letters:
-  title: Updates From the Author
-  image: /img/envelope.jpg
->>>>>>> parent of 21fe656 (Home CMS fix)
+    title: Updates From the Author
+    image: /img/envelope.jpg
 ---
 
