@@ -57,7 +57,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - file: "site/content/bookss/_index.md"
+      - file: "site/content/books/_index.md"
         label: "Books Page"
         name: "books"
         fields:
