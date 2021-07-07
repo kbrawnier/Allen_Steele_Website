@@ -1,6 +1,6 @@
 ---
-title: "Values"
-image: /img/about-jumbotron.jpg
+title: "Tours"
+image: /img/santaFe.jpg
 values:
   - heading: "Shade-grown coffee"
     text: >
