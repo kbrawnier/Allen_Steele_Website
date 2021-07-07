@@ -16,7 +16,7 @@ intro:
     vel enim lacinia tristique. Integer ac elit sed neque tincidunt vestibulum
     non eu eros. Curabitur commodo lacus ultricies nulla porttitor, sed
     pulvinar.
-books:
+products:
   - text: >-
       Learn about Allen Steele's 25 years of miracle filled mission work. Read
       about Allen and Andrea's time in Portugal during the Carnation Revolution
@@ -37,8 +37,7 @@ books:
     image: /img/books/unkSF.jpg
     buttonUrl: https://www.amazon.com/Santa-Fe-1880-Chronicles-Railroad/dp/1467141941
 letters:
-  - text: >-
-    Updates From the Author
-  image: /img/envelope.jpg
+    text: Updates from the author
+    image: /img/envelope.jpg
 ---
 
