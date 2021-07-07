@@ -37,9 +37,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Books", name: books, widget: list, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Letters", name: "letters", widget: list, fields: [
-              {label: "Title", name: "title", widget: "text"},
-              {label: "Image", name: "image", widget: "image"}]}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
