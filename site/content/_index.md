@@ -37,7 +37,8 @@ books:
     image: /img/books/unkSF.jpg
     buttonUrl: https://www.amazon.com/Santa-Fe-1880-Chronicles-Railroad/dp/1467141941
 letters:
-  title: Updates From the Author
+  - text: >-
+    Updates From the Author
   image: /img/envelope.jpg
 ---
 
